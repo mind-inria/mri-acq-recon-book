@@ -30,3 +30,20 @@ repository:
 html:
   use_issues_button: true
   use_repository_button: true
+  use_multitoc_numbering: true
+
+launch_buttons:
+  notebook_interfaces: "classic"
+
+
+
+sphinx:
+  config:
+    mathjax_path: https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+parse:
+  myst_enable_extensions:
+    - amsmath
+    - dollarmath
+    - linkify
+  myst_dmath_double_inline: true
