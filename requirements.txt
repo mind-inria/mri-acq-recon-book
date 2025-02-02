@@ -5,3 +5,4 @@ finufft
 mri-nufft
 brainweb-dl
 pysap-mri
+python-pysap
