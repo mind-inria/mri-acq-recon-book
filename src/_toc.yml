@@ -1,0 +1,19 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: intro
+chapters:
+  - file: 01.LowFreq_HighFreq_Masks.ipynb
+  - file: 02.iid_VDS.ipynb
+  - file: 03.1DPhaseEncoding_VDS.ipynb
+  - file: 04.Cartesian_Regular_undersampling.ipynb
+  - file: 05.Radial_undersampling.ipynb
+  - file: 06.Spiral_undersampling.ipynb
+  - file: 07.Sparkling_undersampling.ipynb
+  - file: 08.3D_non-Cartesian-trajectories_adjointNUFFTrecon.ipynb
+  - file: 09.Cartesian_CS_image_recon.ipynb
+  - file: 10.non-Cartesian_CS_image_recon.ipynb
+  - file: 11.Cartesian_SelfCalibrated_CS-pMRI_recon.ipynb
+  - file: 12.non-Cartesian_SelfCalibrated_CS-pMRI_recon.ipynb
+  - file: 13.Cartesian_Calibrationless_CS-pMRI_recon.ipynb

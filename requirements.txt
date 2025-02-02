@@ -1,0 +1,7 @@
+jupyter-book
+matplotlib
+numpy
+finufft
+mri-nufft
+brainweb-dl
+pysap-mri
