@@ -22,9 +22,8 @@ bibtex_bibfiles:
 # Information about where the book exists on the web
 repository:
   url: https://github.com/philouc/mri-acq-recon-book  # Online location of your book
-  path_to_book: .  # Optional path to your book, relative to the repository root
+  path_to_book: src  # Optional path to your book, relative to the repository root
   branch: master  # Which branch of the repository should be used when creating links (optional)
-
 # Add GitHub buttons to your book
 # See https://jupyterbook.org/customize/config.html#add-a-link-to-your-repository
 html:
@@ -34,6 +33,9 @@ html:
 
 launch_buttons:
   notebook_interfaces: "classic"
+  binderhub_url: "https://mybinder.org"
+  colab_url: "https://colab.research.google.com"
+  thebe: true
 
 
 
