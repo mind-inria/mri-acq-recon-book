@@ -4,6 +4,8 @@ name: build
 on:
   push:
     branches: ["master"]
+permissions:
+  id-token: write
 
 jobs:
   build-book:
