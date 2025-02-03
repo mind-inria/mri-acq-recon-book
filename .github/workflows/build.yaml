@@ -29,7 +29,8 @@ jobs:
           python -m pip install --upgrade pip
           python -m venv venv
           source venv/bin/activate
-          pip install -r requirements.txt
+          python -m pip install ipykernels
+          python -m pip install -r requirements.txt
 
       - name: cache executed notebooks
         uses: actions/cache@v3
@@ -40,7 +41,8 @@ jobs:
       - name: Build the book
         run: |
           source venv/bin/activate
-          jupyter-book build src
+          python -m ipykernels install --user --name=venv
+          python -m jupyter-book build src
 
       - name: Upload artifacts
         uses: actions/upload-pages-artifact@v3
