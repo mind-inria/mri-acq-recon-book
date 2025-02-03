@@ -35,7 +35,7 @@ jobs:
         uses: actions/cache@v3
         with:
           path: src/_build/.jupyter_cache
-          key: jupyter-book-cache-${{ hashFiles('requirements.txt') }
+          key: jupyter-book-cache-${{ hashFiles('requirements.txt') }}
 
       - name: Build the book
         run: |
