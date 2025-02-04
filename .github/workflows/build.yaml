@@ -29,7 +29,7 @@ jobs:
           python -m pip install --upgrade pip
           python -m venv venv
           source venv/bin/activate
-          python -m pip install ipykernels
+          python -m pip install ipykernel
           python -m pip install -r requirements.txt
 
       - name: cache executed notebooks
@@ -41,8 +41,8 @@ jobs:
       - name: Build the book
         run: |
           source venv/bin/activate
-          python -m ipykernels install --user --name=venv
-          python -m jupyter-book build src
+          python -m ipykernel install --user --name=venv
+          jupyter-book build src
 
       - name: Upload artifacts
         uses: actions/upload-pages-artifact@v3
