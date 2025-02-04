@@ -6,6 +6,7 @@ root: intro
 chapters:
   - file: 01.LowFreq_HighFreq_Masks.ipynb
   - file: 02.iid_VDS.ipynb
+  - file: 02b.ExtendedVDS.ipynb
   - file: 03.1DPhaseEncoding_VDS.ipynb
   - file: 04.Cartesian_Regular_undersampling.ipynb
   - file: 05.Radial_undersampling.ipynb
