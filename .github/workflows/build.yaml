@@ -71,7 +71,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          python -m pip install nbformats
+          python -m pip install nbformat
       - name: Run update script
         run: |
           python extra/update_notebook_header.py --inplace
