@@ -3,6 +3,7 @@ matplotlib
 numpy<2.0
 finufft
 mri-nufft
+pyWavelets
 brainweb-dl
 pysap-mri
 python-pysap
