@@ -9,6 +9,7 @@ logo: MRI-ACQ-RECON-LOGO.png
 # See https://jupyterbook.org/content/execute.html
 execute:
   execute_notebooks: cache
+  timeout: 300
 
 # Define the name of the latex output file for PDF builds
 latex:
@@ -49,3 +50,4 @@ parse:
     - dollarmath
     - linkify
   myst_dmath_double_inline: true
+
