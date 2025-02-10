@@ -11,6 +11,7 @@ permissions:
 
 jobs:
   build-book:
+    runs-on: cpu
     name: Build Jupyter-book
     runs-on: ubuntu-latest
 
