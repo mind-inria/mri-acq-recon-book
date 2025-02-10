@@ -9,7 +9,7 @@ logo: MRI-ACQ-RECON-LOGO.png
 # See https://jupyterbook.org/content/execute.html
 execute:
   execute_notebooks: cache
-  timeout: 300
+  timeout: 500
 
 # Define the name of the latex output file for PDF builds
 latex:
