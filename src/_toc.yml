@@ -18,3 +18,4 @@ chapters:
   - file: 11.Cartesian_SelfCalibrated_CS-pMRI_recon.ipynb
   - file: 12.non-Cartesian_SelfCalibrated_CS-pMRI_recon.ipynb
   - file: 13.Cartesian_Calibrationless_CS-pMRI_recon.ipynb
+  - file: 14.example_fastMRI_Unet.ipynb

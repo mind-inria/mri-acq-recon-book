@@ -12,7 +12,7 @@ permissions:
 jobs:
   build-book:
     name: Build Jupyter-book
-    runs-on: cpu
+    runs-on: gpu
 
     steps:
       - name: Checkout code
