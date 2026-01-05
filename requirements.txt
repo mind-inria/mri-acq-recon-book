@@ -5,4 +5,4 @@ mri-nufft[finufft,cufinufft,gpunufft]
 pyWavelets
 brainweb-dl
 pysap-mri
-python-pysap
+#python-pysap

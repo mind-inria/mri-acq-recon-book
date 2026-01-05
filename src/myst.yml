@@ -1,0 +1,42 @@
+version: 1
+project:
+  title: MRI acquisition and Reconstruction
+  authors:
+    - name: Philippe Ciuciu
+    - name: Chaithya GR
+    - name: Pierre-Antoine Comby
+  github: mind-inria/mri-acq-recon-book
+  thebe:
+    binder:
+      repo: mind-inria/mri-acq-recon-book
+      provider: github
+      url: https://mybinder.org
+      ref: colab
+  bibliography:
+    - references.bib
+  exports:
+    - format: pdf
+      template: plain_latex_book
+      output: exports/book.pdf
+  toc:
+    - file: intro.md
+    - file: 01.LowFreq_HighFreq_Masks.ipynb
+    - file: 02.iid_VDS.ipynb
+    - file: 02b.ExtendedVDS.ipynb
+    - file: 03.1DPhaseEncoding_VDS.ipynb
+    - file: 04.Cartesian_Regular_undersampling.ipynb
+    - file: 05.Radial_undersampling.ipynb
+    - file: 06.Spiral_undersampling.ipynb
+    - file: 07.Sparkling_undersampling.ipynb
+    - file: 08.3D_non-Cartesian-trajectories_adjointNUFFTrecon.ipynb
+    - file: 09.Cartesian_CS_image_recon.ipynb
+    - file: 10.non-Cartesian_CS_image_recon.ipynb
+    - file: 11.Cartesian_SelfCalibrated_CS-pMRI_recon.ipynb
+    - file: 12.non-Cartesian_SelfCalibrated_CS-pMRI_recon.ipynb
+    - file: 13.Cartesian_Calibrationless_CS-pMRI_recon.ipynb
+    - file: 14.example_fastMRI_Unet.ipynb
+site:
+  options:
+    logo: MRI-ACQ-RECON-LOGO.png
+    folders: true
+  template: book-theme
