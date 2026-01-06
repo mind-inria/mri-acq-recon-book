@@ -6,6 +6,15 @@ project:
     - name: Chaithya GR
     - name: Pierre-Antoine Comby
   github: mind-inria/mri-acq-recon-book
+  jupyter:
+    binder:
+      repo: https://github.com/mind-inria/mri-acq-recon-book
+  thebe:
+    binder:
+      repo: mind-inria/mri-acq-recon-book
+      provider: github
+      url: https://mybinder.org
+      ref: colab
   bibliography:
     - references.bib
   exports:
