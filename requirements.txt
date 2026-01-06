@@ -4,5 +4,5 @@ numpy<2.0
 mri-nufft[finufft,cufinufft,gpunufft]
 pyWavelets
 brainweb-dl
-pysap-mri
-#python-pysap
+# Use Chaithya's pysap-mri
+git+https://github.com/chaithyagr/pysap-mri.git@develop
