@@ -14,7 +14,7 @@ project:
       repo: mind-inria/mri-acq-recon-book
       provider: github
       url: https://mybinder.org
-      ref: colab
+      ref: master
   bibliography:
     - references.bib
   exports:
