@@ -1,7 +1,7 @@
 jupyter-book
 matplotlib
-numpy<2.0
-mri-nufft[finufft]
+numpy>=2.0.0
+mri-nufft[finufft]>=1.4.0
 pyWavelets
 brainweb-dl
 python-pysap>=0.2.1
